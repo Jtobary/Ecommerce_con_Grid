@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-size: 18px;
+}
+p{
+    font-size: 12px;
+}
+i{
+    color: grey;
+    margin: 8px;
+}
+.Mensajeria{
+    display: flex;
+}
+.User{
+    display: flex;
+    width: 25rem;
+    padding: 8px;
+    border: 1px solid #d1d1d1;
+}
+.User .MiFoto {
+    border-radius: 50%; 
+    width: 3rem;
+    height: 3rem;
+ }
+.User .MisDatos{
+    width: 10rem;
+    align-self: center;
+ }
+.User .icons{
+    display: flex;
+    align-self: center;   
+}
+.User img{
+    border-radius: 50%; 
+   width: 4rem;
+   height: 4rem;
+   margin: 20px;
+}
+.Chat{
+    align-items: center;
+    text-align: center;
+    border:solid;
+    padding: 10px;
+    margin: 30px 20px 30px 20px;
+    width: 10rem;
+    color: rgb(255, 255, 255);
+    background-color: #a491d2;
+}
+
+.User .info{
+    align-self: center;
+}
+
+.imgHands{
+    width: 20rem;
+    height: 20rem;
+}
+.SeccionPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8ebe4;
+    width: 80rem;
+}
+
+/*
+edición de la sección Contact
+.Contact .Users{
+    /*padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.User{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid #d1d1d1;
+    
+}
+.Contact .User .MiFoto {
+    border-radius: 50%; 
+    width: 3rem;
+    height: 3rem;
+ }
+.icons{
+    margin: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Contact .Users img{
+    border-radius: 50%; 
+   width: 4rem;
+   height: 4rem;
+   margin: 20px;
+}
+.Chat{
+    align-items: center;
+    text-align: center;
+    border:solid;
+    padding: 10px;
+    margin: 30px 20px 30px 20px;
+    width: 10rem;
+    color: rgb(255, 255, 255);
+    background-color: #a491d2;
+}
